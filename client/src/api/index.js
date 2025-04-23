@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://ai-recipe-generator-wkwr.onrender.com/api";
 
 export const fetchItems = async () => {
   try {
