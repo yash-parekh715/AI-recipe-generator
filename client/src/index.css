@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+button {
+    background-color: #6552FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4e43d6;
+}
+
+.scrollable {
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.item-list, .basket-list, .recipe-history {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.item, .basket-item, .recipe-item {
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.item:last-child, .basket-item:last-child, .recipe-item:last-child {
+    border-bottom: none;
+}
+
+.recipe-title {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.recipe-instructions {
+    margin-top: 10px;
+    line-height: 1.5;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9fafb;
+}
+
+button,
+input[type="text"] {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
