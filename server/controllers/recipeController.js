@@ -147,7 +147,7 @@ const generateRecipe = async (req, res) => {
           {
             parts: [
               {
-                text: `Create a recipe using these ingredients: ${items.join(
+                text: `Create a recipe using these ingredients, give normal text and not markdown: ${items.join(
                   ", "
                 )}`,
               },
